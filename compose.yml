@@ -4,7 +4,7 @@ services:
   devopsdb:
     image: brkdockerhub/myjavarepo1:db
     ports:
-      - "3306:3306"
+      - "1234:3306"
     deploy:
       replicas: 3
     networks:
